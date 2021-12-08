@@ -166,7 +166,7 @@ function Luxt1.CreateWindow(libName, logoId)
     tabFrame.Name = "tabFrame"
     tabFrame.Parent = sideHeading
     tabFrame.Active = true
-    tabFrame.BackgroundColor3 = Color3.fromRGB(242, 243, 243)
+    tabFrame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
     tabFrame.BackgroundTransparency = 1.000
     tabFrame.BorderSizePixel = 0
     tabFrame.Position = UDim2.new(0.0761478543, 0, 0.126385808, 0)
@@ -198,7 +198,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     wave.Name = "wave"
     wave.Parent = MainFrame
-    wave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    wave.BackgroundColor3 = Color3.fromRGB(242, 243, 243)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
