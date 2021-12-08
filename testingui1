@@ -25,7 +25,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     key1.Name = "key1"
     key1.Parent = sideHeading
-    key1.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+    key1.BackgroundColor3 = Color3.fromRGB(35, 71, 139)
     key1.Position = UDim2.new(0.0508064516, 0, 0.935261786, 0)
     key1.Size = UDim2.new(0, 76, 0, 22)
     key1.ZIndex = 2
