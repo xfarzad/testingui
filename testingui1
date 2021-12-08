@@ -62,7 +62,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     keybindInfo1.Name = "keybindInfo"
     keybindInfo1.Parent = sideHeading
-    keybindInfo1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    keybindInfo1.BackgroundColor3 = Color3.fromRGB(35, 71, 139)
     keybindInfo1.BackgroundTransparency = 1.000
     keybindInfo1.Position = UDim2.new(0.585064113, 0, 0.935261846, 0)
     keybindInfo1.Size = UDim2.new(0, 50, 0, 22)
@@ -122,7 +122,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     sideHeading.Name = "sideHeading"
     sideHeading.Parent = MainFrame
-    sideHeading.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    sideHeading.BackgroundColor3 = Color3.fromRGB(35, 71, 139)
     sideHeading.Size = UDim2.new(0, 155, 0, 452)
     sideHeading.ZIndex = 2
 
