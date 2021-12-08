@@ -139,7 +139,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
@@ -180,7 +180,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     usename.Name = "usename"
     usename.Parent = sideHeading
-    usename.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    usename.BackgroundColor3 = Color3.fromRGB(242, 243, 243)
     usename.BackgroundTransparency = 1.000
     usename.Position = UDim2.new(0.290000081, 0, 0.0700000152, 0)
     usename.Size = UDim2.new(0, 110, 0, 16)
