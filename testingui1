@@ -139,8 +139,8 @@ function Luxt1.CreateWindow(libName, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(35, 71, 139)
-	hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+    hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
     hubLogo.Image = "rbxthumb://type=Asset&id=1363720966&w=150&h=150"..logoId
@@ -201,7 +201,7 @@ function Luxt1.CreateWindow(libName, logoId)
     wave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
-    wave.Size = UDim2.new(1.97865659, 0, 1.557522118, 0)
+    wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
     wave.Image = "rbxthumb://type=Asset&id=1363720966&w=150&h=150"
     wave.ImageColor3 = Color3.fromRGB(181, 249, 255)
     wave.ImageTransparency = 0.300
