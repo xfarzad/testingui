@@ -116,13 +116,13 @@ function Luxt1.CreateWindow(libName, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(16, 42, 220)
     MainFrame.Position = UDim2.new(0.048, 0,0.075, 0)
     MainFrame.Size = UDim2.new(0, 553, 0, 452)
 
     sideHeading.Name = "sideHeading"
     sideHeading.Parent = MainFrame
-    sideHeading.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    sideHeading.BackgroundColor3 = Color3.fromRGB(16, 42, 220)
     sideHeading.Size = UDim2.new(0, 155, 0, 452)
     sideHeading.ZIndex = 2
 
@@ -132,7 +132,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     sideCover.Name = "sideCover"
     sideCover.Parent = sideHeading
-    sideCover.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    sideCover.BackgroundColor3 = Color3.fromRGB(16, 42, 220)
     sideCover.BorderSizePixel = 0
     sideCover.Position = UDim2.new(0.909677446, 0, 0, 0)
     sideCover.Size = UDim2.new(0, 14, 0, 452)
@@ -203,7 +203,7 @@ function Luxt1.CreateWindow(libName, logoId)
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
     wave.Image = "http://www.roblox.com/asset/?id=6087537285"
-    wave.ImageColor3 = Color3.fromRGB(181, 249, 255)
+    wave.ImageColor3 = Color3.fromRGB(16, 42, 220)
     wave.ImageTransparency = 0.300
     wave.ScaleType = Enum.ScaleType.Slice
 
