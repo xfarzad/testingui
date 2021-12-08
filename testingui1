@@ -180,14 +180,14 @@ function Luxt1.CreateWindow(libName, logoId)
 
     usename.Name = "usename"
     usename.Parent = sideHeading
-    usename.BackgroundColor3 = Color3.fromRGB(242, 243, 243)
+    usename.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     usename.BackgroundTransparency = 1.000
     usename.Position = UDim2.new(0.290000081, 0, 0.0700000152, 0)
     usename.Size = UDim2.new(0, 110, 0, 16)
     usename.ZIndex = 2
     usename.Font = Enum.Font.GothamSemibold
     usename.Text = game.Players.LocalPlayer.Name
-    usename.TextColor3 = Color3.fromRGB(242, 243, 243)
+    usename.TextColor3 = Color3.fromRGB(255, 255, 255)
     usename.TextSize = 12.000
     usename.TextWrapped = true
     usename.TextXAlignment = Enum.TextXAlignment.Left
@@ -203,7 +203,7 @@ function Luxt1.CreateWindow(libName, logoId)
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
     wave.Image = "rbxthumb://type=Asset&id=1363720966&w=150&h=150"
-    wave.ImageColor3 = Color3.fromRGB(242, 243, 243)
+    wave.ImageColor3 = Color3.fromRGB(255, 255, 255)
     wave.ImageTransparency = 0.300
     wave.ScaleType = Enum.ScaleType.Slice
 
