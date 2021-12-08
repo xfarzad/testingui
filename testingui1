@@ -116,7 +116,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     MainFrame.Position = UDim2.new(0.048, 0,0.075, 0)
     MainFrame.Size = UDim2.new(0, 553, 0, 452)
 
@@ -132,7 +132,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     sideCover.Name = "sideCover"
     sideCover.Parent = sideHeading
-    sideCover.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    sideCover.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
     sideCover.BorderSizePixel = 0
     sideCover.Position = UDim2.new(0.909677446, 0, 0, 0)
     sideCover.Size = UDim2.new(0, 14, 0, 452)
