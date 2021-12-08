@@ -25,13 +25,13 @@ function Luxt1.CreateWindow(libName, logoId)
 
     key1.Name = "key1"
     key1.Parent = sideHeading
-    key1.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    key1.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
     key1.Position = UDim2.new(0.0508064516, 0, 0.935261786, 0)
     key1.Size = UDim2.new(0, 76, 0, 22)
     key1.ZIndex = 2
     key1.Font = Enum.Font.GothamSemibold
     key1.Text = "LeftAlt"
-    key1.TextColor3 = Color3.fromRGB(67, 84, 147)
+    key1.TextColor3 = Color3.fromRGB(35, 71, 139)
     key1.TextSize = 14.000
 
     local oldKey = Enum.KeyCode.LeftAlt.Name
@@ -62,14 +62,14 @@ function Luxt1.CreateWindow(libName, logoId)
 
     keybindInfo1.Name = "keybindInfo"
     keybindInfo1.Parent = sideHeading
-    keybindInfo1.BackgroundColor3 = Color3.fromRGB(0,0,0)
+    keybindInfo1.BackgroundColor3 = Color3.fromRGB(35, 71, 139)
     keybindInfo1.BackgroundTransparency = 1.000
     keybindInfo1.Position = UDim2.new(0.585064113, 0, 0.935261846, 0)
     keybindInfo1.Size = UDim2.new(0, 50, 0, 22)
     keybindInfo1.ZIndex = 2
     keybindInfo1.Font = Enum.Font.GothamSemibold
     keybindInfo1.Text = "Close"
-    keybindInfo1.TextColor3 = Color3.fromRGB(67, 84, 147)
+    keybindInfo1.TextColor3 = Color3.fromRGB(35, 71, 139)
     keybindInfo1.TextSize = 13.000
     keybindInfo1.TextXAlignment = Enum.TextXAlignment.Left
 
