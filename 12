@@ -68,7 +68,7 @@ function Luxt1.CreateWindow(libName, logoId)
     keybindInfo1.Size = UDim2.new(0, 50, 0, 22)
     keybindInfo1.ZIndex = 2
     keybindInfo1.Font = Enum.Font.GothamSemibold
-    keybindInfo1.Text = "Close"
+    keybindInfo1.Text = "Keybind"
     keybindInfo1.TextColor3 = Color3.fromRGB(98, 37, 209)
     keybindInfo1.TextSize = 13.000
     keybindInfo1.TextXAlignment = Enum.TextXAlignment.Left
