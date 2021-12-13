@@ -1,0 +1,28 @@
+-- the key 2 speed is "x"
+plr = game:GetService('Players').LocalPlayer
+down = true
+ 
+function onButton1Down(mouse)
+    down = true
+    while down do
+        if not down then break end
+        local char = plr.Character
+        char.HumanoidRootPart.Velocity = char.HumanoidRootPart.CFrame.lookVector * 150
+        wait()
+    end
+end
+ 
+function onButton1Up(mouse)
+    down = false
+end
+ 
+function onSelected(mouse)
+    mouse.KeyDown:connect(function(x) if x:lower()=="x"then onButton1Down(mouse)end end)
+    mouse.KeyUp:connect(function(x) if x:lower()=="x"then onButton1Up(mouse)end end)
+end
+onSelected(game.Players.LocalPlayer:GetMouse())
+game.StarterGui:SetCore("SendNotification",{
+			Title = "Speed Enabled";
+			Text = "Time for Fun😘";
+			Duration = 3;
+		})
